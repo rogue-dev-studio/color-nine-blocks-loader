@@ -1,7 +1,22 @@
 # Color Nine Blocks Loader
 
-Nine colored blocks that pulse as a CSS loader.
+Colored nine-block CSS loading animation.
 
-Open `index.html` (Live Server on 5500). Repo folder name still has a legacy `omeans` prefix until renamed to `color-nine-blocks-loader`.
+![Screenshot](github-contents/screenshot.png)
 
-Aris Hadisopiyan / Rogue Dev Studio · MIT
+**Live demo:** [https://rogue-dev-studio.github.io/color-nine-blocks-loader/](https://rogue-dev-studio.github.io/color-nine-blocks-loader/)
+
+## Highlights
+- CSS-driven color blocks
+- Static demo page
+
+## Run
+Open `index.html` locally (Live Server on port **5500**), or use the live demo above.
+
+```bash
+git clone https://github.com/rogue-dev-studio/color-nine-blocks-loader.git
+```
+
+By [Aris Hadisopiyan](https://rogue-dev-studio.github.io/) / Rogue Dev Studio.
+
+MIT
