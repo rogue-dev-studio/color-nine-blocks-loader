@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Loading-rogue-nine-block</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Nine Blocks Loader</title>
+  <link rel="stylesheet" href="dist/style.css">
+  <style>
+    html, body { margin: 0; height: 100%; background: #1a1a1a; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+  </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="loading-rogue">
+<p class="sr-only">Color nine blocks loading animation</p>
+  <div class="loading-rogue">
     <span class="loading-rogue-nine o-1"></span>
     <span class="loading-rogue-nine o-2"></span>
     <span class="loading-rogue-nine o-3"></span>
@@ -19,7 +23,5 @@
     <span class="loading-rogue-nine o-8"></span>
     <span class="loading-rogue-nine o-9"></span>
   </div>
-<!-- partial -->
-  
 </body>
 </html>
